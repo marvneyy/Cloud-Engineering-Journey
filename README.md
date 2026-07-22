@@ -4,7 +4,7 @@
 
 Hi! I'm Marvan.
 
-I'm currently learning Cloud Engineering from scratch through a structured roadmap. This repository documents my daily learning, hands-on labs, notes, and projects as I work toward becoming a Cloud Engineer in the UAE.
+I'm currently learning Cloud Engineering from scratch through a structured roadmap. This repository documents my daily learning, hands-on labs, notes, and projects as I work toward becoming a Cloud Engineer 
 
 ---
 
@@ -14,7 +14,7 @@ I'm currently learning Cloud Engineering from scratch through a structured roadm
 - Build real-world hands-on projects
 - Earn industry-recognized cloud certifications
 - Build a strong GitHub portfolio
-- Become a Cloud Engineer in the UAE
+- Become a Cloud Engineer 
 
 ---
 
