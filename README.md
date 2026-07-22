@@ -1,4 +1,4 @@
-# ☁️ UAE Cloud Engineering Learning Journey
+# ☁️  Cloud Engineering Learning Journey
 
 ## 👋 About Me
 
