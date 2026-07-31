@@ -34,7 +34,9 @@ I'm learning Cloud Engineering from scratch through a strict, hands-on, portfoli
 Cloud-Engineering-Journey/
 - notes/
   - week1/
-    - Day-1.md
+    - ## 📚 Notes
+
+-[Day 1 - Networking Basics](notes/Day-1.md)
     - day2.md
     - day3.md
     - day4.md
