@@ -1,6 +1,8 @@
-☁️Cloud Engineering Learning Journey
+☁️ Cloud Engineering Learning Journey
 
 Welcome to my Cloud Engineering learning journey.
+
+Hi, I'm Marvan.
 
 I'm learning Cloud Engineering from scratch through a structured roadmap. This repository documents my daily learning, hands-on labs, notes, and projects as I work toward becoming a Cloud Engineer.
 
