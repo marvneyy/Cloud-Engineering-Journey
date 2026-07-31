@@ -34,15 +34,15 @@ I'm learning Cloud Engineering from scratch through a strict, hands-on, portfoli
 Cloud-Engineering-Journey/
 
 - notes/
-  - week1/
-    - [Day-1.md](notes/week1/Day-1.md)
-    - day2.md
-    - day3.md
-    - day4.md
-    - day5.md
-    - day6.md
-    - day7.md
-  - week2/
+  - Week1/
+    - [Day-1.md](notes/Day-1.md)
+    - Day2.md
+    - Day3.md
+    - Day4.md
+    - Day5.md
+    - Day6.md
+    - Day7.md
+  - Week2/
 - projects/
   - (hands-on builds will go here as I progress)
 - README.md
