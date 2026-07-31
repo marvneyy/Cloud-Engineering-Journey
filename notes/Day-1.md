@@ -113,6 +113,3 @@ ping 8.8.8.8
 
 My local IP address:[192.191.2.94]
 My default gateway:[192.184.4.7]
-
-What I noticed: [— e.g. "My laptop's private IP was different from what shows up when I check my public IP online — that's when the NAT concept actually clicked."]
-
