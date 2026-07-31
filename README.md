@@ -6,7 +6,7 @@ Hi, I'm Marvan Faizal CH.
 
 I'm learning Cloud Engineering from scratch through a strict, hands-on, portfolio-driven roadmap. This repository documents my daily learning, labs, notes, projects, and progress as I work toward becoming a job-ready Cloud Engineer.
 
----
+
 
 🎯 Goals
 
@@ -34,9 +34,8 @@ I'm learning Cloud Engineering from scratch through a strict, hands-on, portfoli
 Cloud-Engineering-Journey/
 - notes/
   - week1/
-    - ## 📚 Notes
-
--[Day 1 - Networking Basics](notes/Day-1.md)
+    - 📚 Notes
+    -[Day-1.md](notes/Day-1.md)
     - day2.md
     - day3.md
     - day4.md
@@ -50,11 +49,10 @@ Cloud-Engineering-Journey/
 
 ---
 
-## 🛠️ Tech Stack Covered
+🛠️ Tech Stack Covered
 
 `Linux` `Networking` `Git & GitHub` `AWS` `Azure` `Docker` `Kubernetes` `Terraform` `Python`
 
----
 
 ## 📈 Progress Log
 
@@ -67,6 +65,6 @@ Cloud-Engineering-Journey/
 
 ---
 
-## 📫 Connect
+📫 Connect
 
 Feel free to follow along as I document this journey day by day.
