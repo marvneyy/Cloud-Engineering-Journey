@@ -14,4 +14,4 @@ ________________________________________________________________________________
 - Build real-world hands-on projects
 - Earn industry-recognized cloud certifications
 - Build a strong GitHub portfolio
-- Become a Cloud Engineer in the UAE
+- Become a Cloud Engineer
