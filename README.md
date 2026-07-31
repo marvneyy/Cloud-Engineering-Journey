@@ -36,7 +36,7 @@ Cloud-Engineering-Journey/
 - notes/
   - Week1/
     - [Day-1.md](notes/Day-1.md)
-    - Day2.md
+    - [Day-2.md](notes/Day-2.md)
     - Day3.md
     - Day4.md
     - Day5.md
