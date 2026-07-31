@@ -101,3 +101,18 @@ Summary
 ✅ WAP = Provides Wi-Fi
 
 ✅ IP Address = Unique device address
+
+---
+
+🛠️ Hands-On Lab
+
+Ran the following on my machine:
+
+ipconfig
+ping 8.8.8.8
+
+My local IP address: [your actual IP]
+My default gateway: [your actual gateway]
+
+What I noticed: [1-2 sentences — e.g. "My laptop's private IP was different from what shows up when I check my public IP online — that's when the NAT concept actually clicked."]
+
