@@ -22,7 +22,7 @@ I'm learning Cloud Engineering from scratch through a strict, hands-on, portfoli
 
 | Status | Details |
 |---|---|
-| Day | Day 1 |
+| Day | Day 7 |
 | Phase | Phase 1 – Networking Foundations |
 | Last Updated | 23 July 2026 |
 | Next Milestone | Complete Week 1 Networking Labs |
@@ -33,11 +33,11 @@ I'm learning Cloud Engineering from scratch through a strict, hands-on, portfoli
 
 Cloud-Engineering-Journey/
 
-- notes/
+- Notes/
   - Week1/
     - [Day-1.md](notes/Day-1.md)
     - [Day-2.md](notes/Day-2.md)
-    - Day3.md
+    - [Day-3.md](notes/Day-3.md)
     - Day4.md
     - Day5.md
     - Day6.md
