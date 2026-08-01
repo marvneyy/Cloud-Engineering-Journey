@@ -111,5 +111,5 @@ Ran the following on my machine:
 ipconfig
 ping 8.8.8.8
 
-My local IP address:[192.191.2.94]
-My default gateway:[192.184.4.7]
+My local IP address:[192.168.1.81]
+My default gateway:[192.168.1.1]
