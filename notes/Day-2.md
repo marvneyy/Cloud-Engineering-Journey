@@ -11,7 +11,7 @@ Topics
 • MAC vs IP
 • ARP
 
-────────────────────────────
+---
 
 1. What is a Switch?
 
@@ -28,7 +28,7 @@ PC
 
 All the devices are connected to the same switch and can share files, print documents, and communicate with each other.
 
-────────────────────────────
+---
 
 2. Why do we use a Switch?
 
@@ -38,14 +38,14 @@ A switch helps connect multiple devices in a LAN and sends data only to the inte
 Example:
 In an office, one switch can connect computers, printers, and IP phones so they can communicate efficiently.
 
-────────────────────────────
+---
 
 3. How does a Switch work?
 
 Answer:
 A switch learns the MAC address of every connected device. It stores these addresses in a MAC Address Table. When data arrives, the switch checks the destination MAC address and forwards the data to the correct device.
 
-────────────────────────────
+---
 
 4. How does a Switch send data?
 
@@ -56,7 +56,7 @@ Device A → Switch → Device B
 
 The switch checks the destination MAC address and sends the data only to Device B. Other devices do not receive that data.
 
-────────────────────────────
+---
 
 5. Switch vs Hub (Basics)
 
@@ -72,7 +72,7 @@ Hub
 • Slower because every device receives the data.
 • Does not use MAC addresses.
 
-────────────────────────────
+---
 
 6. What is a Router? Router vs Switch
 
@@ -95,7 +95,7 @@ Router
 • Uses IP addresses.
 • Works at Layer 3.
 
-────────────────────────────
+---
 
 7. MAC Address vs IP Address
 
@@ -119,7 +119,7 @@ IP Address
 Example:
 192.168.1.10
 
-────────────────────────────
+---
 
 8. Layer 2 vs Layer 3
 
@@ -135,7 +135,7 @@ Layer 3 (Network Layer)
 • Routers operate here.
 • Communication happens between different networks.
 
-────────────────────────────
+---
 
 9. What is ARP?
 
@@ -150,7 +150,7 @@ The PC first uses ARP to find the MAC address of 192.168.1.20.
 
 Once it gets the MAC address, it sends the data through the switch.
 
-────────────────────────────
+---
 
 Summary
 
@@ -168,7 +168,7 @@ Summary
 
 ✅ ARP = Finds MAC address using an IP address
 
-────────────────────────────
+---
 
 🛠️ Hands-On Lab
 
