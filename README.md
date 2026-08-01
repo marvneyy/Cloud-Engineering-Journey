@@ -41,7 +41,7 @@ Cloud-Engineering-Journey/
     - [Day-4.md](notes/Day-4.md)
     - [Day-5.md](notes/Day-5.md)
     - [Day-6.md](notes/Day-6.md)
-    -[Day-7.md](notes/Day-7.md)
+    - [Day-7.md](notes/Day-7.md)
   - Week2/
 - projects/
   - (hands-on builds will go here as I progress)
