@@ -56,7 +56,7 @@ Created a simple LAN using a switch and three PCs in Cisco Packet Tracer.
 
 Verified successful communication using the ping command.
 
-![Packet Tracer LAN](packet-tracer-lab.png)
+[packet-tracer-lab.png](packet-tracer-lab.png)
 
 ---
 
@@ -64,7 +64,7 @@ Lab 2
 
 Created a simple home network diagram showing Internet → ISP → Wi-Fi Router → Connected Devices.
 
-![Home Network Diagram](home-network-diagram.jpg)
+[home-network-diagram.jpg](home-network-diagram.jpg)
 
 ---
 
