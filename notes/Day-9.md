@@ -112,6 +112,30 @@ Do not use a calculator.
 
 ---
 
+ Private IP Cheat Sheet
+
+ Private IP Ranges
+
+| Class | Range |
+|-------|---------------------------|
+| Class A | 10.0.0.0 – 10.255.255.255 |
+| Class B | 172.16.0.0 – 172.31.255.255 |
+| Class C | 192.168.0.0 – 192.168.255.255 |
+
+ NAT
+
+- NAT = Network Address Translation.
+- NAT allows multiple private IP addresses to share one public IP address.
+- NAT helps save IPv4 addresses.
+
+ Memory Trick
+
+🏠 Private = Inside Home
+
+🌍 Public = Internet
+
+🔄 NAT = Translator
+
 Summary
 
 ✅ Private IP = Used inside local networks.
@@ -134,25 +158,3 @@ Task
 • Memorize the three Private IP ranges.
 
 ---
-
-💻 GitHub Task
-
-Create a file named:
-
-private_ip_cheat_sheet.md
-
-Include:
-
-• Class A Private IP Range
-• Class B Private IP Range
-• Class C Private IP Range
-• NAT explanation
-• Binary conversion practice
-
----
-
-🚀 Deliverable
-
-• Complete Binary Conversion Practice.
-• Create private_ip_cheat_sheet.md.
-• Memorize all Private IP ranges.
