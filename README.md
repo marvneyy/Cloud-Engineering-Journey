@@ -60,8 +60,8 @@ Cloud-Engineering-Journey/
 
 | Week | Focus | Status |
 |---|---|---|
-| Week 1 | Networking Foundations & OSI Model | 🔄 In Progress |
-| Week 2 | IP Addressing & Subnetting | ⏳ Not Started |
+| Week 1 | Networking Foundations & OSI Model | ✅ COMPLETED|
+| Week 2 | IP Addressing & Subnetting | 🔄 In Progress |
 | Week 3 | Protocols & Routing | ⏳ Not Started |
 | Week 4 | Cloud Networking Basics | ⏳ Not Started |
 
