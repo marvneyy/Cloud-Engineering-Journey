@@ -35,16 +35,19 @@ Cloud-Engineering-Journey/
 
 - Notes/
   - Week1/
-    - [Day-1.md](notes/Day-1.md)
-    - [Day-2.md](notes/Day-2.md)
-    - [Day-3.md](notes/Day-3.md)
-    - [Day-4.md](notes/Day-4.md)
-    - [Day-5.md](notes/Day-5.md)
-    - [Day-6.md](notes/Day-6.md)
-    - [Day-7.md](notes/Day-7.md)
+    - [Day-1.md](notes/Day-001.md)
+    - [Day-2.md](notes/Day-002.md)
+    - [Day-3.md](notes/Day-003.md)
+    - [Day-4.md](notes/Day-004.md)
+    - [Day-5.md](notes/Day-005.md)
+    - [Day-6.md](notes/Day-006.md)
+    - [Day-7.md](notes/Day-007.md)
   - Week2/
-    - [Day-8.md](notes/Day-8.md)
-    - [Day-9.md](notes/Day-9.md)
+    - [Day-8.md](notes/Day-008.md)
+    - [Day-9.md](notes/Day-009.md)
+    - [Day-10.md](notes/Day-010.md)
+    - [Day-11.md](notes/Day-011.md)
+
 
 - projects/
   - (hands-on builds will go here as I progress)
