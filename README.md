@@ -49,6 +49,10 @@ Cloud-Engineering-Journey/
     - [Day-11](notes/Day-011.md)
     - [Day-12](notes/Day-012.md)
     - [Day-13](notes/Day-013.md)
+    - [Day-14](notes/Day-014.md)
+    - [Day-15](notes/Day-015.md)
+    - [Day-16](notes/Day-016.md)
+
 
 
 
