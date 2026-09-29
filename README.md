@@ -50,7 +50,7 @@ Cloud-Engineering-Journey/
     - [Day-12](notes/Day-012.md)
     - [Day-13](notes/Day-013.md)
     - [Day-14](notes/Day-014.md)
-- Week3
+  - Week3
     - [Day-15](notes/Day-015.md)
     - [Day-16](notes/Day-016.md)
 
