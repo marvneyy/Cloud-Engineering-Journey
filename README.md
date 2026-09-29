@@ -53,6 +53,11 @@ Cloud-Engineering-Journey/
   - Week 3
     - [Day-15](notes/Day-015.md)
     - [Day-16](notes/Day-016.md)
+    - [Day-17](notes/Day-017.md)
+    - [Day-18](notes/Day-018.md)
+    - [Day-19](notes/Day-019.md)
+    - [Day-16](notes/Day-020.md)
+    - [Day-21](notes/Day-021.md)
 
 
 
