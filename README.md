@@ -34,7 +34,7 @@ I'm learning Cloud Engineering from scratch through a strict, hands-on, portfoli
 Cloud-Engineering-Journey/
 
 - Notes/
-  - Week1
+  - Week 1
     - [Day-1](notes/Day-001.md)
     - [Day-2](notes/Day-002.md)
     - [Day-3](notes/Day-003.md)
@@ -42,7 +42,7 @@ Cloud-Engineering-Journey/
     - [Day-5](notes/Day-005.md)
     - [Day-6](notes/Day-006.md)
     - [Day-7](notes/Day-007.md)
-  - Week2
+  - Week 2
     - [Day-8](notes/Day-008.md)
     - [Day-9](notes/Day-009.md)
     - [Day-10](notes/Day-010.md)
@@ -50,7 +50,7 @@ Cloud-Engineering-Journey/
     - [Day-12](notes/Day-012.md)
     - [Day-13](notes/Day-013.md)
     - [Day-14](notes/Day-014.md)
-  - Week3
+  - Week 3
     - [Day-15](notes/Day-015.md)
     - [Day-16](notes/Day-016.md)
 
