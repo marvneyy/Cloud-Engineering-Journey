@@ -33,7 +33,7 @@ I'm learning Cloud Engineering from scratch through a strict, hands-on, portfoli
 
 Cloud-Engineering-Journey/
 
-- Notes/
+- Notes:-
   - Week 1
     - [Day-1](notes/Day-001.md)
     - [Day-2](notes/Day-002.md)
