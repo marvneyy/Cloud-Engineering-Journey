@@ -60,6 +60,12 @@ Cloud-Engineering-Journey/
     - [Day-21](notes/Day-021.md)
   - Week 4
     - [Day-22](notes/Day-022.md)
+    - [Day-23](notes/Day-023.md)
+    - [Day-24](notes/Day-024.md)
+    - [Day-25](notes/Day-025.md)
+    - [Day-26](notes/Day-026.md)
+    - [Day-27](notes/Day-027.md)
+    - [Day-28](notes/Day-028.md)
 
 
 
