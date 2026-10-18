@@ -88,6 +88,7 @@ I'm learning Cloud Engineering through a hands-on, portfolio-driven roadmap. Thi
 - [Day 28](notes/Day-028.md)
 
 </details>
+
 ---
 
 ### 🐧 Month 2 — Linux Fundamentals
