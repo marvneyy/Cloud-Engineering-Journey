@@ -4,7 +4,7 @@
 
 Hi, I'm Marvan Faizal CH.
 
-I'm learning Cloud Engineering through a hands-on, portfolio-driven roadmap. This repository documents my daily learning, practical labs, technical notes, projects, and progress as I work toward a Cloud Engineering career in the UAE.
+I'm learning Cloud Engineering through a hands-on, portfolio-driven roadmap. This repository documents my daily learning, practical labs, technical notes, projects, and progress as I work toward a Cloud Engineering career.
 
 ---
 
@@ -15,7 +15,7 @@ I'm learning Cloud Engineering through a hands-on, portfolio-driven roadmap. Thi
 - Build real-world projects that demonstrate practical knowledge.
 - Earn industry-recognized certifications: AWS Solutions Architect – Associate (SAA-C03) and Microsoft Azure Administrator (AZ-104).
 - Build a strong GitHub portfolio.
-- Prepare for Cloud Support, Cloud Operations, and Cloud Engineering roles in the UAE.
+- Prepare for Cloud Support, Cloud Operations, and Cloud Engineering roles.
 
 ---
 
