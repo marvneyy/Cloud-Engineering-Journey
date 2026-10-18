@@ -1,0 +1,401 @@
+# 📅 Day 23 — AWS Subnets & Availability Zones ☁️
+
+**Goal:** Understand AWS subnets, public vs private subnets, and Availability Zones. Learn how to divide a VPC IP range into smaller subnets and draw a basic VPC architecture.
+
+---
+
+## 📚 Topics
+
+- What a subnet is
+- Why subnets are used
+- Understanding CIDR notation and subnet ranges
+- Public subnet vs Private subnet
+- What an Availability Zone (AZ) is
+- Mapping subnets across two Availability Zones
+- Dividing a VPC into four `/24` subnets
+- Drawing a basic AWS VPC architecture
+
+---
+
+## 1. What Is a Subnet?
+
+**Subnet = Subnetwork**
+
+A subnet is a smaller network created from a larger IP network.
+
+### 🧠 Simple Definition
+
+> **Subnet = A smaller network inside a larger network.**
+
+Imagine that a large house is divided into separate rooms. The house represents the VPC, and the rooms represent subnets.
+
+### Example
+
+```text
+VPC: 10.0.0.0/16
+        |
+        ├── Subnet 1: 10.0.0.0/24
+        |
+        ├── Subnet 2: 10.0.1.0/24
+        |
+        ├── Subnet 3: 10.0.2.0/24
+        |
+        └── Subnet 4: 10.0.3.0/24
+```
+
+The VPC is the larger network. Each subnet is a smaller IP network inside it.
+
+---
+
+## 2. Why Do We Use Subnets?
+
+Subnets help us organize cloud resources into separate network segments.
+
+For example, an application may use different subnets for different purposes.
+
+```text
+                    VPC
+                     |
+             ┌───────┴───────┐
+             |               |
+          Subnet A         Subnet B
+             |               |
+        Web Servers       Databases
+```
+
+This is an illustrative architecture. The actual placement depends on the application's network design.
+
+### Remember
+
+- VPC = Larger virtual network
+- Subnet = Smaller network inside the VPC
+
+---
+
+## 3. What Is CIDR Notation?
+
+**CIDR = Classless Inter-Domain Routing**
+
+CIDR notation is used to represent an IP network and its prefix length.
+
+Example:
+
+```text
+10.0.0.0/24
+```
+
+The `/24` tells us that 24 of the 32 IPv4 bits represent the network prefix.
+
+### IPv4 Basics
+
+An IPv4 address contains 32 bits.
+
+```text
+IPv4 = 32 bits
+
+Network bits + Host bits = 32 bits
+```
+
+The host bits determine the total number of addresses in a subnet.
+
+### Example: `/24`
+
+```text
+Total IPv4 bits = 32
+Network bits    = 24
+Host bits       = 32 - 24
+                = 8
+```
+
+Total addresses:
+
+```text
+2^8 = 256 addresses
+```
+
+For a standard IPv4 `/24` subnet:
+
+- Total addresses: 256
+- Normally usable host addresses: 254
+- Network address: 1
+- Broadcast address: 1
+
+### 🧠 Memory Trick
+
+```text
+Host bits = 32 - CIDR prefix
+
+Total addresses = 2^(host bits)
+```
+
+---
+
+## 4. Understanding `/24`, `/25` and `/26`
+
+These are subnet prefixes studied during networking practice.
+
+| CIDR | Host bits | Total addresses | Normally usable hosts |
+|---|---:|---:|---:|
+| `/24` | 8 | 256 | 254 |
+| `/25` | 7 | 128 | 126 |
+| `/26` | 6 | 64 | 62 |
+
+### Example: `/25`
+
+```text
+Total bits = 32
+Network bits = 25
+Host bits = 32 - 25 = 7
+
+Total addresses = 2^7 = 128
+Normally usable hosts = 128 - 2 = 126
+```
+
+### Example: `/26`
+
+```text
+Total bits = 32
+Network bits = 26
+Host bits = 32 - 26 = 6
+
+Total addresses = 2^6 = 64
+Normally usable hosts = 64 - 2 = 62
+```
+
+**Important:** The normally usable host counts above use the standard IPv4 subnet calculation. AWS reserves five IPv4 addresses in each IPv4 subnet, so an AWS `/24` subnet normally has 251 available IPv4 addresses for resources.
+
+---
+
+## 5. Our Day 23 VPC Subnetting Task
+
+The roadmap asks us to logically divide the following VPC address range into four `/24` subnets.
+
+```text
+VPC CIDR:
+10.0.0.0/16
+```
+
+We will use these four subnets:
+
+| Subnet | CIDR range |
+|---|---|
+| Subnet 1 | `10.0.0.0/24` |
+| Subnet 2 | `10.0.1.0/24` |
+| Subnet 3 | `10.0.2.0/24` |
+| Subnet 4 | `10.0.3.0/24` |
+
+Each `/24` subnet contains 256 total IPv4 addresses.
+
+### How Do the Subnet Numbers Change?
+
+```text
+First:   10.0.0.0/24
+Second:  10.0.1.0/24
+Third:   10.0.2.0/24
+Fourth:  10.0.3.0/24
+```
+
+Notice that the third number changes from `0` to `1`, then `2`, then `3`.
+
+These are four selected `/24` subnets within the larger `10.0.0.0/16` VPC range. A `/16` network can contain more than four `/24` subnets.
+
+---
+
+## 6. What Is a Public Subnet?
+
+A public subnet is a subnet whose associated route table has a route to an Internet Gateway (IGW).
+
+### Simple Definition
+
+> **Public subnet = A subnet with a route to an Internet Gateway.**
+
+Conceptually:
+
+```text
+                  INTERNET
+                      |
+                      |
+              Internet Gateway
+                      |
+                      |
+                Public Subnet
+                      |
+                 Web Server
+```
+
+A public subnet can be used for internet-facing resources, such as a public website server.
+
+**Important:** A route to an Internet Gateway alone does not automatically make a resource accessible from the internet. Public IP addressing and appropriate security rules are also important.
+
+---
+
+## 7. What Is a Private Subnet?
+
+A private subnet does not have a direct route to an Internet Gateway through its associated route table.
+
+### Simple Definition
+
+> **Private subnet = A subnet without a direct route to an Internet Gateway.**
+
+Conceptually:
+
+```text
+                  VPC
+                   |
+             Private Subnet
+                   |
+                Database
+```
+
+Private subnets are commonly used for resources that should not be directly reachable from the public internet, such as databases.
+
+A private subnet can still have other network routes or controlled outbound internet access, depending on its configuration.
+
+### Public vs Private Subnet
+
+| Public Subnet | Private Subnet |
+|---|---|
+| Has a route to an Internet Gateway | No direct route to an Internet Gateway |
+| Can host internet-facing resources | Commonly hosts internal resources |
+| Example: Public website server | Example: Database |
+| Internet reachability still depends on other settings | Does not automatically mean all network access is blocked |
+
+### 🧠 Easy Memory
+
+```text
+PUBLIC SUBNET
+Route to Internet Gateway.
+
+PRIVATE SUBNET
+No direct route to Internet Gateway.
+```
+
+**Remember:** Public subnet does not mean public IP. These are two different concepts.
+
+---
+
+## 8. What Is an Availability Zone (AZ)?
+
+An **Availability Zone (AZ)** is an isolated location within an AWS Region.
+
+AWS Regions contain multiple Availability Zones.
+
+### Simple Definition
+
+> **Availability Zone = An isolated infrastructure location inside an AWS Region.**
+
+The roadmap uses the UAE Region:
+
+```text
+UAE Region = me-central-1
+```
+
+A VPC can contain subnets in multiple Availability Zones.
+
+### Why Use Multiple Availability Zones?
+
+Using multiple Availability Zones can help an application remain available if an issue affects one zone, provided the application is designed to operate across the zones.
+
+For example:
+
+```text
+             AWS Region — UAE
+                me-central-1
+                      |
+                     VPC
+                      |
+              ┌───────┴───────┐
+              |               |
+          AZ A              AZ B
+              |               |
+          Subnets           Subnets
+```
+
+### 🧠 Remember
+
+```text
+Region = Geographic AWS location
+AZ = Isolated infrastructure location inside a Region
+VPC = Virtual network
+Subnet = Smaller network inside the VPC
+```
+
+---
+
+## 9. VPC Architecture Diagram
+
+
+![VPC Architecture Diagram](day23-vpc-diagram.png)
+
+
+This diagram shows the planned network structure. It does not mean that these subnets have already been created in AWS.
+
+### My Diagram
+
+I created the Day 23 architecture diagram using Draw.io.
+
+**Diagram contents:**
+- UAE AWS Region: `me-central-1`
+- VPC CIDR: `10.0.0.0/16`
+- Two Availability Zones
+- Four `/24` subnets
+
+---
+
+## 10. Important Difference: Private IP vs Public Subnet
+
+These two concepts are easy to confuse.
+
+### Private IP Address
+
+An IP address belonging to a private IPv4 range, such as:
+
+```text
+10.0.0.1
+```
+
+The `10.0.0.0/8` block is reserved for private IPv4 networks.
+
+### Public Subnet
+
+A subnet classified by its routing configuration, specifically its route to an Internet Gateway.
+
+Therefore:
+
+```text
+Private IP ≠ Private Subnet
+
+Public IP ≠ Public Subnet
+```
+
+A subnet can have a private CIDR range and still be configured as a public subnet.
+
+---
+
+## 11. Key Terms
+
+### VPC
+A logically isolated virtual network inside AWS.
+
+### Subnet
+A smaller IP network within a VPC.
+
+### CIDR
+A notation that represents an IP network and its prefix length.
+
+### Public Subnet
+A subnet with a route to an Internet Gateway.
+
+### Private Subnet
+A subnet without a direct route to an Internet Gateway.
+
+### Availability Zone
+An isolated infrastructure location inside an AWS Region.
+
+### Region
+A geographic AWS location.
+
+### Internet Gateway (IGW)
+An AWS networking component that enables communication between a VPC and the internet when routing and other required configurations are in place.
+
+---
