@@ -91,9 +91,12 @@ I'm learning Cloud Engineering through a hands-on, portfolio-driven roadmap. Thi
 
 ### 🐧 Month 2 — Linux Fundamentals
 
-**Week 5**
+<details>
+<summary><strong>Week 5 — Days 29–35</strong></summary>
 
 - [Day 29](Linux-Mastery/Day-029.md)
+
+  </details>
 
 ### 🏗️ Projects
 
