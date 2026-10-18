@@ -89,6 +89,7 @@ I'm learning Cloud Engineering through a hands-on, portfolio-driven roadmap. Thi
 
 </details>
 
+
 ### 🐧 Month 2 — Linux Fundamentals
 
 <details>
@@ -97,6 +98,7 @@ I'm learning Cloud Engineering through a hands-on, portfolio-driven roadmap. Thi
 - [Day 29](Linux-Mastery/Day-029.md)
 
   </details>
+
 
 ### 🏗️ Projects
 
