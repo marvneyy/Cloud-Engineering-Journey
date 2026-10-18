@@ -1,4 +1,4 @@
-📅 **Day 14 - Small Office Network Design**
+# 📅 **Day 14 - Small Office Network Design**
 
 **Project Completed**
 
@@ -12,5 +12,5 @@ Designed a small office network by dividing `192.168.1.0/24` into 3 separate sub
 
 **Deliverable**
 
-[day14-office-network-design](day14-office-network-design.png)
+![Office-Network-Design](day14-office-network-design.png)
 
