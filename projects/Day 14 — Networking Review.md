@@ -1,0 +1,16 @@
+📅 **Day 14 - Small Office Network Design**
+
+**Project Completed**
+
+Designed a small office network by dividing `192.168.1.0/24` into 3 separate subnets.
+
+**Network Design**
+
+• IT Support → 50 Users → `192.168.1.0/26`
+• HR → 20 Users → `192.168.1.64/27`
+• Database → 10 Servers → `192.168.1.96/28`
+
+**Deliverable**
+
+[day14-office-network-design](day14-office-network-design.png)
+
