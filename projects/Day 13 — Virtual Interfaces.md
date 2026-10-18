@@ -115,10 +115,3 @@ ping [IP]
 
 ---
 
-**Day 13 Status**
-
-✅ Completed
-
-**Next Step**
-
-➡️ Day 14
