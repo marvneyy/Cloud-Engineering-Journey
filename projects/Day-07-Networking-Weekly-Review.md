@@ -64,7 +64,7 @@ Verified successful communication using the ping command.
 
 Created a simple home network diagram showing Internet → ISP → Wi-Fi Router → Connected Devices.
 
-![home-network-diagram](home-network-diagram.jpg)
+![home-network-diagram](Day7-home-network-diagram.jpg)
 
 ---
 
