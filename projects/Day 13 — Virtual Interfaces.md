@@ -1,6 +1,6 @@
-📅 **Day 13 - Segmented Multi-Subnet Network Simulation**
+# 📅 Day 13 - Segmented Multi-Subnet Network Simulation**
 
-**Topics Covered**
+## Topics
 
 • Virtual Switch Interfaces
 • Physical Interface IP Assignment inside CLI
@@ -10,7 +10,7 @@
 
 ---
 
-🎯 **Day 13 Goal**
+## 🎯 Goal
 
 Build a multi-subnet network in **Cisco Packet Tracer** and make two different networks communicate through routers.
 
