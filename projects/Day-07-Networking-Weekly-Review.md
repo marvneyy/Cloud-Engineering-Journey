@@ -56,7 +56,7 @@ Created a simple LAN using a switch and three PCs in Cisco Packet Tracer.
 
 Verified successful communication using the ping command.
 
-![packet-tracer-lab](packet-tracer-lab.png)
+![packet-tracer-lab](Day7-packet-tracer-lab.png)
 
 ---
 
