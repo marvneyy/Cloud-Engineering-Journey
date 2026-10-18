@@ -102,7 +102,12 @@ I'm learning Cloud Engineering through a hands-on, portfolio-driven roadmap. Thi
 
 Hands-on projects and architecture documentation will be added as the roadmap progresses.
 
+<details>
+<summary><strong>View Projects</strong></summary>
+
 - [View Projects Folder](projects/)
+
+   </details>
 
 ---
 
