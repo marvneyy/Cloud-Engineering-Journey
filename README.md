@@ -97,6 +97,8 @@ I'm learning Cloud Engineering through a hands-on, portfolio-driven roadmap. Thi
 <summary><strong>Week 5 — Days 29–35</strong></summary>
 
 - [Day 29](Linux-Mastery/Day-029.md)
+- [Day 30](Linux-Mastery/Day-030.md)
+- [Day 31](Linux-Mastery/Day-031.md)
 
   </details>
 
