@@ -157,7 +157,8 @@ Day26-IGW
 
 The screenshot shows the VPC, all four subnets, both route tables, and the Internet Gateway.
 
-**Screenshot:** [VPC Resource Map](Day26-VPC-Resource-Map.png)
+**Screenshot:** 
+![VPC Resource Map](Day26-VPC-Resource-Map.png)
 
 ---
 
