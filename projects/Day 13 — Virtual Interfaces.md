@@ -1,4 +1,4 @@
-# 📅 Day 13 - Segmented Multi-Subnet Network Simulation**
+# 📅 Day 13 - Segmented Multi-Subnet Network Simulation
 
 ## Topics
 
