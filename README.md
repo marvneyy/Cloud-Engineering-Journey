@@ -68,7 +68,7 @@ Cloud-Engineering-Journey/
     - [Day-26](notes/Day-026.md)
     - [Day-27](notes/Day-027.md)
     - [Day-28](notes/Day-028.md)
-    - [Day-29](Linux-File-System.md)
+    - [Day-29](Linux-Mastery/Linux-File-System.md)
 
 
 
